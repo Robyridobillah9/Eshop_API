@@ -1,4 +1,4 @@
-const { RegisterPayloadSchema, LoginPayloadSchema } = require('./schema');
+const { RegisterPayloadSchema, LoginPayloadSchema } = require("./schema");
 
 const AuthenticationValidator = {
   validateRegisterPayload: (payload) => {
